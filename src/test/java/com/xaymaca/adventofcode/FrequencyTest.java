@@ -44,7 +44,8 @@ public class FrequencyTest {
     }
 
 
-    @Test public void testForFinalFrequency() {
+    @Test
+    public void testForFinalFrequency() {
 
         InputStream inputs = loadInputs();
 
@@ -52,16 +53,13 @@ public class FrequencyTest {
 
             String line = null;
             int total = 0;
-
             while ((line = read.readLine()) != null) {
-
                 int nnum = Integer.valueOf(line);
              //   System.out.println("new operation is " + total + " + " + nnum);
                 total += nnum;
              //   System.out.println("total is now " + total);
 
             }
-
             Assert.assertEquals("final frequency ", 543, total);
         } catch (IOException e) {
             e.printStackTrace();
@@ -75,9 +73,7 @@ public class FrequencyTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return null;
-
     }
 
 }
