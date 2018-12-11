@@ -8,7 +8,7 @@ import java.net.URL;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DuplicateFrequencyTest {
+public class FrequencyTest {
 
 
     @Test
