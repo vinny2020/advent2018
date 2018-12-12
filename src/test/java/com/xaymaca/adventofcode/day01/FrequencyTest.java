@@ -1,4 +1,4 @@
-package com.xaymaca.adventofcode;
+package com.xaymaca.adventofcode.day01;
 
 import org.junit.Assert;
 import org.junit.Test;
